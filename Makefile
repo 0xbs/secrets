@@ -1,7 +1,10 @@
 .PHONY: build all install clean
 
 build:
-	go build -o build/secrets
+	go build -v ./...
+
+test:
+	go test -v ./...
 
 all:
 	GOOS=darwin  GOARCH=amd64 go build -o build/secrets-macos
