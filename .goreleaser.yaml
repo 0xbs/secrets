@@ -13,3 +13,11 @@ builds:
       - arm64
 universal_binaries:
   - replace: false
+brews:
+  - tap:
+      owner: 0xbs
+      name: homebrew-tap
+      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
+    homepage: https://github.com/0xbs/secrets
+    description: A command line tool for symmetric encryption and decryption of files.
+    license: "MIT"
