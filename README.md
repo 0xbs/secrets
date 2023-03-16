@@ -54,5 +54,3 @@ Check out the [release page](https://github.com/0xbs/secrets/releases) and downl
 ## Build
 
 To build, use standard Golang commands like `go build`.
-
-The Makefile provides some convenience functions like `make all` to build the program for all operating systems. 
