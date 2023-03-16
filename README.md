@@ -23,18 +23,29 @@ is prompted from the user.
 
 **Flags:**
 
-| Flag | Type   | Description
-|------|--------|-------------
-| `-c` |        | continue operation even if a file cannot be processed
-| `-d` |        | force decryption regardless of file extension
-| `-i` | int    | number of iterations for PBKDF2 key derivation (default 10000)
-| `-k` | int    | number bytes used for encryption key, either 16, 24, or 32 bytes to select AES-128, AES-192, or AES-256 (default 16)
-| `-p` | string | password for encryption and decryption
-| `-q` | string | read password from given environment variable
-| `-r` |        | remove input files after encryption or decryption
-| `-s` | int    | number bytes used for salt (default 8)
-| `-x` | string | extension for encrypted files (default ".encrypted")
+| Flag | Type   | Description                                                                                                          |
+|------|--------|----------------------------------------------------------------------------------------------------------------------|
+| `-c` |        | continue operation even if a file cannot be processed                                                                |
+| `-d` |        | force decryption regardless of file extension                                                                        |
+| `-i` | int    | number of iterations for PBKDF2 key derivation (default 10000)                                                       |
+| `-k` | int    | number bytes used for encryption key, either 16, 24, or 32 bytes to select AES-128, AES-192, or AES-256 (default 16) |
+| `-p` | string | password for encryption and decryption                                                                               |
+| `-q` | string | read password from given environment variable                                                                        |
+| `-r` |        | remove input files after encryption or decryption                                                                    |
+| `-s` | int    | number bytes used for salt (default 8)                                                                               |
+| `-x` | string | extension for encrypted files (default ".encrypted")                                                                 |
 
+## Install
+
+### macOS
+Install via Homebrew tap:
+```shell
+brew tap 0xbs/tap
+brew install secrets
+```
+
+### Windows/Linux
+Check out the [release page](https://github.com/0xbs/secrets/releases) and download the latest release.
 
 ## Build
 
