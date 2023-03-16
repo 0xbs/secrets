@@ -37,14 +37,18 @@ is prompted from the user.
 
 ## Install
 
-### macOS
-Install via Homebrew tap:
+### Using Homebrew
 ```shell
 brew tap 0xbs/tap
 brew install secrets
 ```
 
-### Windows/Linux
+### From Source
+```shell
+go install github.com/0xbs/secrets@latest
+```
+
+### Download Binary
 Check out the [release page](https://github.com/0xbs/secrets/releases) and download the latest release.
 
 ## Build
