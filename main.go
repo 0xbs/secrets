@@ -1,5 +1,7 @@
 package main
 
+import secret "github.com/0xbs/secrets/secret"
+
 import (
 	"flag"
 	"fmt"
@@ -7,7 +9,6 @@ import (
 	"math/rand"
 	"os"
 	"path/filepath"
-	"secrets/secret"
 	"strings"
 	"time"
 )
