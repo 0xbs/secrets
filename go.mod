@@ -1,4 +1,4 @@
-module secrets
+module github.com/0xbs/secrets
 
 go 1.17
 
