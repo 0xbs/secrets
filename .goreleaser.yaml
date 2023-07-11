@@ -14,7 +14,7 @@ builds:
 universal_binaries:
   - replace: false
 brews:
-  - tap:
+  - repository:
       owner: 0xbs
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
