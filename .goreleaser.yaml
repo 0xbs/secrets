@@ -14,7 +14,7 @@ builds:
       - arm64
 universal_binaries:
   - replace: false
-brews:
+homebrew_casks:
   - repository:
       owner: 0xbs
       name: homebrew-tap
